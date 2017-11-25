@@ -10,4 +10,6 @@ See https://hub.docker.com/r/poum/distzilla/.
 
 # Usage
 
+```
   docker run --rm -v $(pwd):/root poum/distzilla dzil build 
+```
