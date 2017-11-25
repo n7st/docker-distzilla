@@ -1,4 +1,4 @@
-FROM perl:5.24.1
+FROM perl:5.26.0
 LABEL maintainer "Philippe Poumaroux <poum@cpan.org>"
 
 RUN cpanm install \
