@@ -1,5 +1,5 @@
 IMAGE=poum/distzilla
-VERSION=6.010
+VERSION=6.012
 
 build: Dockerfile
 	docker build -t $(IMAGE):$(VERSION) .
