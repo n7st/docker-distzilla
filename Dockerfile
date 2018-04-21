@@ -22,4 +22,6 @@ RUN cpanm install \
         Software::License::GPL_3 \
     && rm -rf /root/.cpanm /tmp/*
 
+WORKDIR /tmp
+
 CMD ["dzil"]
